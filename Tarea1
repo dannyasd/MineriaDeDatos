@@ -1,0 +1,10 @@
+#En el lenguaje de programación Python
+#la palabra reservada import, importa una biblioteca,
+#la palabra reservada as, es un alias de la biblioteca
+import pandas as pd
+# Lo anterior se lee como: "importa la biblioteca pandas como pd"
+import numpy as np
+#cargar desde url
+data_url = pd.read_csv(r"C:\Users\Fam Carrada Clemente\Downloads/dataset_malwares.csv")
+data_url.head()
+print(data_url.head())
